@@ -1,0 +1,18 @@
+/*
+ *Project: Hello World Extension
+ *Description: A Google Chrome extension that will display the "hello world" message
+ *File Name: manifest.json
+ *
+ *Credit: ieabbas
+ *Website: github.com/ieabbas
+ *
+ */ {
+    "name": "Hello World",
+    "version": ".69",
+    "description": "The dawn of a new age of coding.",
+    // "browser_action" tells Chrome that this extension will add a button to the toolbar
+    // so far all that's happened is we've set what the icon for that button will be 
+    "browser_action": {
+        "default_icon": "hello_icon.png"
+    }
+}
